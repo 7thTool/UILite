@@ -1,0 +1,6 @@
+; MFCLite.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MFCLite"
+
+EXPORTS
+    ; Explicit exports can go here

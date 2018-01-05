@@ -1,0 +1,3 @@
+<CSmartKBDlg title="智能键盘" rect="0,0,240,250" delstyle="0x00C80000" delexstyle="0x00010101">
+	<SmartKBComboBox name="smartkb" rect="4,4,236,246" title="指标/命令/代码/名称/快捷键" style="0x56010001" ></SmartKBComboBox>
+</CSmartKBDlg>

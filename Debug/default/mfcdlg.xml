@@ -1,0 +1,26 @@
+<mfcdlg titile="mfcdlg" rect="0,0,800,600" >
+	<Pane name="0" rect="0,0,800,600" style="0xE" >
+		<Pane name="0_0" rect="0,0,800,20" style="5" >
+			<Pane name="logo" rect="0,0,20,20" style="0" />
+			<Pane name="caption" rect="20,0,660,20" style="4" />
+			<Pane name="0_0_2" rect="660,0,800,20" style="1">
+				<Pane name="skin" rect="660,0,688,20" />
+				<Pane name="menu" rect="688,0,716,20" />
+				<Pane name="min" rect="716,0,744,20" />
+				<Pane name="max" rect="744,0,772,20" />
+				<Pane name="close" rect="772,0,800,20" />
+			</Pane>
+		</Pane>
+		<Pane name="main" rect="0,40,800,580" style="0xE" >
+			
+		</Pane>
+		<Pane name="0_2" rect="0,560,800,600" style="5" />
+	</Pane>
+	<STATIC name="logo" title="" style="0x56010000" ></STATIC>
+	<STATIC name="caption" title="mfcdlg" style="0x56010000" ></STATIC>
+	<BUTTON name="skin" title="" style="0x56010000" ></BUTTON>
+	<BUTTON name="menu" title="" style="0x56010000" ></BUTTON>
+	<SYSBUTTON name="min" title="min" style="0x56000000" ></SYSBUTTON>
+	<SYSBUTTON name="max" title="max" style="0x56000000" ></SYSBUTTON>
+	<SYSBUTTON name="close" title="close" style="0x56000000" ></SYSBUTTON>
+</mfcdlg>

@@ -1,0 +1,9 @@
+<MessageBox title="" rect="0,0,380,280" style="0x56010000" exstyle"0" id="100" >
+	<SYSBUTTON name="CLOSE" rect="341,0,380,20" title="CLOSE" style="0x56000000" ></SYSBUTTON>
+	<STATIC name="text" rect="16,139,103,226" title="" style="0x56000000" ></STATIC>
+	<EDIT name="input" rect="112,142,311,170" title="" style="0x56010020" ></EDIT>
+	<BUTTON name="ok" rect="156,213,226,240" title="确认" style="0x56000000" ></button>
+	<BUTTON name="cancel" rect="236,213,306,240" title="取消" style="0x56000000" ></button>
+	<BUTTON name="check" rect="320,182,376,250" title="记住" style="0x56010002" ></button>
+	<HYPELINK name="hypelink" rect="320,142,376,170" title="注册" hypelink="http://cn.bing.com/" style="0x56010000" ></HYPELINK>
+</MessageBox>

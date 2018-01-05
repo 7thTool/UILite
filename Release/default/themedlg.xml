@@ -1,0 +1,38 @@
+<themedlg titile="mfcdlg" rect="0,0,800,600" >
+	<Pane name="0" rect="0,0,800,600" style="0xE" >
+		<Pane name="0_0" rect="0,0,800,20" style="5" >
+			<Pane name="0_0_0" rect="0,0,200,20" style="0" />
+			<Pane name="0_0_1" rect="200,0,660,20" style="4" />
+			<Pane name="0_0_2" rect="660,0,800,20" style="1">
+				<Pane name="skin" rect="660,0,688,20" />
+				<Pane name="menu" rect="688,0,716,20" />
+				<Pane name="min" rect="716,0,744,20" />
+				<Pane name="max" rect="744,0,772,20" />
+				<Pane name="close" rect="772,0,800,20" />
+			</Pane>
+		</Pane>
+		<Pane name="0_1" rect="0,20,800,580" style="0xE" >
+			<Pane name="0_1_0" rect="100,0,300,20" style="0xD" >
+				<Pane name="theme1" rect="660,0,688,20" />
+				<Pane name="theme2" rect="688,0,716,20" />
+				<Pane name="theme3" rect="716,0,744,20" />
+			</Pane>
+			<Pane name="0_1_1" rect="688,0,716,20" style="0xD" >
+				<Pane name="theme4" rect="660,0,688,20" />
+				<Pane name="theme5" rect="688,0,716,20" />
+				<Pane name="theme6" rect="716,0,744,20" />
+			</Pane>
+			<Pane name="0_1_2" rect="716,0,744,20" style="0xD" >
+				<Pane name="theme7" rect="660,0,688,20" />
+				<Pane name="theme8" rect="688,0,716,20" />
+				<Pane name="theme9" rect="716,0,744,20" />
+			</Pane>
+		</Pane>
+		<Pane name="0_2" rect="0,580,800,600" style="4" />
+	</Pane>
+	<BUTTON name="skin" title="" style="0x56010000" ></BUTTON>
+	<BUTTON name="menu" title="" style="0x56010000" ></BUTTON>
+	<SYSBUTTON name="min" title="min" style="0x56000000" ></SYSBUTTON>
+	<SYSBUTTON name="max" title="max" style="0x56000000" ></SYSBUTTON>
+	<SYSBUTTON name="close" title="close" style="0x56000000" ></SYSBUTTON>
+</themedlg>

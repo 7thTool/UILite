@@ -1,0 +1,15 @@
+<AboutDlg title="AboutDlg" rect="0,0,380,280" style="0x56010000" exstyle"0" id="100" >
+	<SYSBUTTON name="MIN" rect="313,0,341,20" title="MIN" style="0x56000000" ></SYSBUTTON>
+	<SYSBUTTON name="MAX" rect="285,0,313,20" title="MAX" style="0x56000000" ></SYSBUTTON>
+	<SYSBUTTON name="close" rect="341,0,380,20" title="CLOSE" style="0x56000000" ></SYSBUTTON>
+	<STATIC name="photo" rect="16,139,103,226" title="" style="0x56000000" ></STATIC>
+	<EDIT name="username" rect="112,142,311,170" title="" style="0x56010000" ></EDIT>
+	<HYPELINK name="register" rect="320,142,376,170" title="×¢²áÕÊºÅ" hypelink="http://cn.bing.com/" style="0x56010000" ></HYPELINK>
+	<EDIT name="password" rect="112,176,311,204" title="" style="0x56010020" ></EDIT>
+	<BUTTON name="multi_account" rect="7,251,76,273" title="¶àÕÊºÅ" style="0x56010000" ></button>
+	<BUTTON name="setting" rect="84,251,153,273" title="ÉèÖÃ" style="0x56010000" ></button>
+	<BUTTON name="login" rect="304,251,373,273" title="µÇÂ¼" style="0x56010000" ></button>
+	<BUTTON name="check_password" rect="156,213,226,230" title="¼Ç×¡ÃÜÂë" style="0x56010006" ></button>
+	<BUTTON name="auto_login" rect="236,213,306,230" title="×Ô¶¯µÇÂ¼" style="0x56010003" ></button>
+	<SCROLLBAR name="SCROLLBAR" rect="0,0,300,30" title="" style="0x56000000" ></SCROLLBAR>
+</AboutDlg>

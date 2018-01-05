@@ -1,0 +1,71 @@
+<root>
+	<global 
+		Image_Dialog="bg/3.jpg"
+		Image_closebutton_NORMAL="btn_close_normal.png" 
+		Image_closebutton_HOT="btn_close_highlight.png" 
+		Image_closebutton_PRESSED="btn_close_down.png"  
+		Image_Minbutton_NORMAL="btn_min_normal.png" 
+		Image_Minbutton_HOT="btn_min_highlight.png" 
+		Image_Minbutton_PRESSED="btn_min_down.png" 
+		Image_MAXbutton_NORMAL="btn_max_normal.png" 
+		Image_MAXbutton_HOT="btn_max_highlight.png" 
+		Image_MAXbutton_PRESSED="btn_max_down.png" 
+		Image_RESTOREbutton_NORMAL="btn_RESTORE_normal.png" 
+		Image_RESTOREbutton_HOT="btn_RESTORE_highlight.png" 
+		Image_RESTOREbutton_PRESSED="btn_RESTORE_down.png" 
+		Image_RESTOREbutton_DISABLED="btn_RESTORE_normal.png" 
+		/>
+	<SysButton
+		Image_close_NORMAL="btn_close_normal.png" 
+		Image_close_HOT="btn_close_highlight.png" 
+		Image_close_PRESSED="btn_close_down.png"  
+		Image_Min_NORMAL="btn_min_normal.png" 
+		Image_Min_HOT="btn_min_highlight.png" 
+		Image_Min_PRESSED="btn_min_down.png" 
+		Image_MAX_NORMAL="btn_max_normal.png" 
+		Image_MAX_HOT="btn_max_highlight.png" 
+		Image_MAX_PRESSED="btn_max_down.png" 
+		Image_RESTORE_NORMAL="btn_RESTORE_normal.png" 
+		Image_RESTORE_HOT="btn_RESTORE_highlight.png" 
+		Image_RESTORE_PRESSED="btn_RESTORE_down.png" 
+		Image_RESTORE_DISABLED="btn_RESTORE_normal.png" 
+		/>
+	<STATIC 
+		Font="12,0,0,0,0,0,0,0,134,0,0,0,32,宋体" color="0,0,0" 
+		Image_Photo="HEAD_106.png" Image_PhotoEdge="head_bkg.png"
+			/>
+	<STATIC name="logo"
+		Image="HEAD_106.png"
+			/>
+	<HypeLink 
+		Font_Text_Normal="12,0,0,0,0,0,0,0,134,0,0,0,32,宋体" Color_Text_Normal="0,0,255"
+		Font_Text_hot="12,0,0,0,0,0,1,0,134,0,0,0,32,宋体" Color_Text_Hot="0,0,255"/>
+	<EDIT Image_EDIT_Edge="Edit.png" RECT_MARGINS="4,4,4,4" Font_EDIT="18,0,0,0,0,0,0,0,134,0,0,0,32,宋体" Text_PASSWORDCHAR="*"
+			/>
+	<RICHEDIT Font="18,0,0,0,0,0,0,0,134,0,0,0,32,宋体" TextColor="255,255,255"
+			/>
+	<Button Image_Button="button.png" Font_Button="12,0,0,0,0,0,0,0,134,0,0,0,32,宋体" Color_Button="0,0,0"
+		Image_CheckBox="checkbox.png" Font_CheckBox="12,0,0,0,0,0,0,0,134,0,0,0,32,宋体"  Color_CheckBox="0,0,0"
+		Image_RadioBox="radiobox.png" Font_RadioBox="12,0,0,0,0,0,0,0,134,0,0,0,32,宋体"  Color_RadioBox="0,0,0"
+		/>
+	<Button name="skin"
+		Image_Button_NORMAL="btn_Skin_normal.png" Image_Button_HOT="btn_skin_highlight.png" Image_Button_PRESSED="btn_Skin_down.png"  
+		/>
+	<Button name="menu"
+		Image_Button_NORMAL="btn_menu_normal.png" Image_Button_HOT="btn_menu_highlight.png" Image_Button_PRESSED="btn_menu_down.png" 
+		/>
+	<ScrollBar Bitmap_Scrollbar="scrollbar.bmp"
+		Image_ARROWBTN="ARROWBTN.png" 
+		Image_THUMBBTNHORZ="THUMBBTNVERT.png"
+		Image_THUMBBTNVERT="THUMBBTNHORZ.png" 
+		Image_LOWERTRACKHORZ="TRACKHORZ.png" 
+		Image_UPPERTRACKHORZ="TRACKHORZ.png" 
+		Image_LOWERTRACKVERT="TRACKVERT.png" 
+		Image_UPPERTRACKVERT="TRACKVERT.png" 
+		Image_GRIPPERHORZ="GRIPPERHORZ.png"
+		Image_GRIPPERVERT="GRIPPERVERT.png"
+		/>
+	<MessageBox image_Background="bk.bmp" />
+	<AboutDlg image_Background="bk2.bmp" />
+	<mfcdlg image_Background="bg/3.jpg" />
+</root>
