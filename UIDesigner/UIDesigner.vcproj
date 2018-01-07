@@ -75,7 +75,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="../../third_party/lib/win32;../../third_party/lib/win32/vc9;../../XLib/lib/win32/vc9/Debug;$(OutDir)"
+				AdditionalLibraryDirectories="../../third_party/lib/win32;../../third_party/lib/win32/vc9;../../XLib/lib/win32/vc9/Debug;$(SolutionDir)lib\win32\vc9\$(ConfigurationName);$(OutDir)"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 			/>
@@ -158,7 +158,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="../../third_party/lib/win32;../../third_party/lib/win32/vc9;../../XLib/lib/win32/vc9/Release;$(OutDir)"
+				AdditionalLibraryDirectories="../../third_party/lib/win32;../../third_party/lib/win32/vc9;../../XLib/lib/win32/vc9/Release;$(SolutionDir)lib\win32\vc9\$(ConfigurationName);$(OutDir)"
 				SubSystem="2"
 			/>
 			<Tool
