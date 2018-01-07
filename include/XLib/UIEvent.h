@@ -5,7 +5,7 @@
 #define _H_UIEVENT_H_
 
 #include "UILite.h"
-#include "XEvent.h"
+#include <XLib/XEvent.h>
 #include <UI/UIApp.h>
 
 #if 0

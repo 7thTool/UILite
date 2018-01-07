@@ -3,20 +3,17 @@
 
 #include <XLib/XLib.h>
 
+#ifndef UILITE_DLL
+#ifdef XLIB_DLL
+#define UILITE_DLL
+#endif//
+#endif//
+
 #ifdef UILITE_DLL
 #ifdef UILITE_EXPORTS
 #define UILITE_API __declspec(dllexport)
 #else
 #define UILITE_API __declspec(dllimport)
-#endif//UILITE_EXPORTS
-#else
-#define	UILITE_API 
-#ifdef UILITE_EXPORTS
-#else
-#endif//
-#endif//UILITE_DLL
-
-#ifndef UILITE_EXPORTS
 #ifdef _AFX
 #pragma comment(lib, "MFCLite.lib")
 #else
@@ -27,5 +24,8 @@
 #endif//
 #endif//_AFX
 #endif//UILITE_EXPORTS
+#else
+#define	UILITE_API 
+#endif//UILITE_DLL
 
 #endif//_H_UILITE_H_
