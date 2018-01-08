@@ -443,6 +443,10 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\src\UIEvent.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\src\UIUser.cpp"
 				>
 			</File>
