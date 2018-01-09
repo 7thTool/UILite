@@ -1,0 +1,11 @@
+# UILite
+基于WTL的UI库，支持WTL/MFC和DirectUI混合开发的轻量高效界面库。
+
+UILite是一款Windows下的基于Windows Template Library（WTL）的DirectUI库，同时支持MFC
+
+UILite对DirectUI的支持比其他类似UI库更特别之处是支持和标准Windows窗口控件的混合开发
+
+
+UILite库是基于Windows Template Library（WTL）的，所以UI界面部分基本都是用模版实现的,所以你能看到所有代码
+
+有兴趣的朋友可以拉下来研究研究
