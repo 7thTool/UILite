@@ -15,9 +15,9 @@
 // See mfcdlg.cpp for the implementation of this class
 //
 
-#ifndef CWinAppEx
+#if _MSC_VER <= 1200 // Visual Studio 98
 typedef CWinApp CWinAppEx;
-#endif//CWinAppEx
+#endif//
 
 class CmfcdlgApp 
 	: public CWinAppEx

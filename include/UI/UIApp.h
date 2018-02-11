@@ -572,10 +572,10 @@ namespace UIHelper
 	}
 
 #ifndef _WIN32_WCE
-	static bool IsCommCtrl6()
+	/*static bool IsCommCtrl6()
 	{
 		return WTL::RunTimeHelper::IsCommCtrl6();
-	}
+	}*/
 
 	static bool IsThemeAvailable()
 	{
@@ -619,7 +619,7 @@ namespace UIHelper
 #endif // !_WIN32_WCE
 
 
-	static HRESULT GetDllVersion(HINSTANCE hInstDLL, DLLVERSIONINFO* pDllVersionInfo)
+	/*static HRESULT GetDllVersion(HINSTANCE hInstDLL, DLLVERSIONINFO* pDllVersionInfo)
 	{
 		return ATL::AtlGetDllVersion(hInstDLL, pDllVersionInfo);
 	}
@@ -646,7 +646,7 @@ namespace UIHelper
 	static HRESULT GetShellVersion(LPDWORD pdwMajor, LPDWORD pdwMinor)
 	{
 		return ATL::AtlGetShellVersion(pdwMajor, pdwMinor);
-	}
+	}*/
 };
 
 #endif//_H_UIAPP_H_

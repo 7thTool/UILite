@@ -35,9 +35,9 @@
 #include <afxcmn.h>             // MFC support for Windows Common Controls
 #endif // _AFX_NO_AFXCMN_SUPPORT
 
-#ifdef CWinAppEx
+#if _MSC_VER > 1200 // Visual Studio 98
 #include <afxcontrolbars.h>     // MFC support for ribbons and control bars
-#endif//CWinAppEx
+#endif//
 
 #define _WTL_NO_AUTOMATIC_NAMESPACE
 

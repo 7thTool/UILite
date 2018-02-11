@@ -4,6 +4,17 @@
 #ifndef _H_UIBASE_H_
 #define _H_UIBASE_H_
 
+//MS VC++ 14.0 _MSC_VER = 1900 (Visual Studio 2015)
+//MS VC++ 12.0 _MSC_VER = 1800 (VisualStudio 2013)
+//MS VC++ 11.0 _MSC_VER = 1700 (VisualStudio 2012)
+//MS VC++ 10.0 _MSC_VER = 1600(VisualStudio 2010)
+//MS VC++ 9.0 _MSC_VER = 1500(VisualStudio 2008)
+//MS VC++ 8.0 _MSC_VER = 1400(VisualStudio 2005)
+//MS VC++ 7.1 _MSC_VER = 1310(VisualStudio 2003)
+//MS VC++ 7.0 _MSC_VER = 1300(VisualStudio.NET)
+//MS VC++ 6.0 _MSC_VER = 1200(VisualStudio 98)
+//MS VC++ 5.0 _MSC_VER = 1100(VisualStudio 97)
+
 //====为EXE工程加入ATL/WTL支持=========================================   
 //1.在工程的stdafx.h中除去#include   <windows.h>,加上   
 //#include   <atlbase.h>   
@@ -115,17 +126,17 @@ using namespace std;
 //#include <atlctrlw.h>
 //#include <atlctrlx.h>
 //#include <atlsplit.h>
-#ifdef _AFX
-#else
+
+#if _MSC_VER > 1500 // Visual Studio 2008
 #ifndef _WTL_USE_VSSYM32
 #define _WTL_USE_VSSYM32
 #endif//_WTL_USE_VSSYM32
+#endif
 #if defined(_WTL_USE_VSSYM32) || (defined(NTDDI_VERSION) && (NTDDI_VERSION >= NTDDI_LONGHORN))
 #include <vssym32.h>
 #else
 #ifndef TMSCHEMA_H
 #include <tmschema.h>
-#endif
 #endif
 #endif
 
