@@ -121,7 +121,7 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(OutDir)$(ProjectName).dll $(SolutionDir)$(Configuration)\ /Y</Command>
+      <Command>xcopy $(OutDir)$(ProjectName)$(TargetExt) $(SolutionDir)$(Configuration)\ /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -148,7 +148,7 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(OutDir)$(ProjectName).dll $(SolutionDir)$(Configuration)\ /Y</Command>
+      <Command>xcopy $(OutDir)$(ProjectName)$(TargetExt) $(SolutionDir)$(Configuration)\ /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
